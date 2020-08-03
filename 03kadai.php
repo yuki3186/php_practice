@@ -9,13 +9,13 @@ if($name == "yuki"){
 }
 //課題2
 $total = 0;
-for($i = 1;$i <= 10000;$i++){ 
+for($i = 1;$i <= 10000; $i++){ 
     $total += $i;}
  echo $total . "\n";
  //課題3
-$fruits = array("apple","banana","cherry","strawberry ","peach ");
+$fruits = array("apple","banana","cherry","strawberry","peach");
 foreach($fruits as $fruit){
-    echo $fruit . "\n";
+      echo $fruit . "\n";
 }
 //課題4
 $start = 1;
