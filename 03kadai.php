@@ -2,10 +2,10 @@
 //課題1
 $name = "yuki";
 if($name == "yuki"){
-     $name.="です"; 
-      echo "私は$name" . "\n";
+      echo "私は".$name."です" . "\n";
 } else {
-     echo "yukiではありません" . "\n";
+     $name = "yuki";
+     echo $name."ではありません" . "\n";
 }
 //課題2
 $total = 0;
