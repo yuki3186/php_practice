@@ -20,8 +20,8 @@ echo f(3, 5) . "\n";
 function sum($arr)
 {
     $result = 1;
-    foreach ($arr as $arrs) {
-        $result *= $arrs;
+    foreach ($arr as $a) {
+        $result *= $a;
     }
     return $result;
 }
